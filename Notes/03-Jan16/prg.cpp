@@ -5,7 +5,7 @@ int main( ) {
    bar( 20, '=' );
    bar( 40 );
    bar( );
-   bar( 'A' );
+   bar( 'A' ); // sets len to 65(ascii code of A)
    return 0;
 }
 void bar( int len, char fill ) {
