@@ -1,11 +1,7 @@
-#include <iostream>
-using namespace std;
+#include "bar.h"
+using namespace seneca;
 int main( ) {
-   char ch = 66;
-   cout << ch << endl;
-   for ( ch = 65; ch <= 'Z'; ch++ ) {
-      cout << ch;
-   }
-   cout << endl;
+   bar( 40, '=' );
+   bar_with_dashes( 70 );
    return 0;
 }
