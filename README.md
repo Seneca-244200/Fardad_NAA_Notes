@@ -9,7 +9,17 @@ Please watch the videos and listen to the instructions carefully. As a computer 
 Here are the Videos. Again, the due date for [Workshop Zero](https://youtube.com/playlist?list=PLxB4x6RkylouixUhNXf0MuwccLriA0DGC&si=cryJ9pUfUTK7jKcl) is Monday, January 15th; start your work now!!
 
 https://youtube.com/playlist?list=PLxB4x6RkylouixUhNXf0MuwccLriA0DGC&si=cryJ9pUfUTK7jKcl
- 
+## 144100 review session  for 244200 students
+The review session on IPC144/BTP100 was held last year<br />
+This session was open to all the students who needed to review the 144/100 concepts before starting 244/200 subjects.<br />
+
+You can view the recordings below and review the code to make your base knowledge stronger for C++.
+
+### 144/100 Review Recordings
+
+- [Part 1 (BBB)](https://recordings.rna2.blindsidenetworks.com/senecacollege/142746f4e9d27ffabde29661522c53351062c6d5-1652708621059/capture/)
+- [Part 2 (BBB)](https://recordings.rna2.blindsidenetworks.com/senecacollege/142746f4e9d27ffabde29661522c53351062c6d5-1652719820097/capture/)
+- [Code](144100Review/Code/)
 ## Mac Users
 If you are working on a Mac, you are required to learn and work with Visual Studio as an advanced IDE, especially in future semesters. To use Visual Studio on a Mac, you can either do all the git commands through the command line and use XCode (which you cannot use in future Windows-related subjects), or you can install a Virtual Machine and run Windows on your Mac. This will have Windows running in a window on your Mac without losing your Mac settings and features.
 
