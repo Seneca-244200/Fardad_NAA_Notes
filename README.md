@@ -28,6 +28,9 @@ Here are the steps to install Fusion Vmware and Windows 10 on Fusion VM:
 - [Install Fusion Vmware](https://www.vmware.com/ca/products/fusion/fusion-evaluation.html). Fusion is free for students; click on ["Register License for Personal Use"](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal) 
 - [Install Windows 10 on Fusion VM](https://www.groovypost.com/howto/create-custom-virtual-machine-vmware-fusion/)
 
+# Lecture Recordings
+- [2251 - OOP244 Lecture recordings](https://www.youtube.com/watch?v=MCwGBUBsjYQ&list=PLxB4x6RkylouyACh2tLSulHhlfSSCROD0&ab_channel=FardadSoleimanloo)
+- [Lecture Inclass Notes](https://github.com/Seneca-244200/Fardad_NAA_Notes)
 
 # [Office](https://teams.microsoft.com/l/team/19%3AyaM1MTjXD0oFYUv9WijEQA8-8P0EmO4Adq7EvBiAMIg1%40thread.tacv2/conversations?groupId=77570c2d-8216-45aa-be59-d50869c846a3&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)
 
