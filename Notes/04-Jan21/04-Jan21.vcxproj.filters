@@ -19,4 +19,17 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pointers.pptx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pointersAndArrays.pptx">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

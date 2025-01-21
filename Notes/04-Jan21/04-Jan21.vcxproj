@@ -129,6 +129,13 @@
   <ItemGroup>
     <ClCompile Include="prg.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pointer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pointers.pptx" />
+    <None Include="pointersAndArrays.pptx" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
