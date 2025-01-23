@@ -8,8 +8,8 @@ void foo( int& I ) {
 }
 int main( ) {
    cout << "OOP244NAA Jan 21" << endl;
-   int num = 10;
-
+   int num = { 10 };
+   int anotherValue{ 3000 };
    foo( num ); // void foo(int& I = num);
 
    cout << "num: " << num << endl;
