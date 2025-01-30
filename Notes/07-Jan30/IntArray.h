@@ -4,6 +4,7 @@ namespace seneca {
    class IntArray {
       int* m_data;
       size_t m_size;
+      int m_garbage;
    public:
       IntArray( );
       IntArray( size_t size );

@@ -20,11 +20,21 @@ namespace seneca {
       delete[] m_data;
    }
    int& IntArray::element( size_t index ) {
-      return m_data[index % m_size];
+      if ( m_data != nullptr ) {
+         return m_data[index % m_size];
+      }
+      else {
+         return m_garbage;
+      }
    }
 
    const int& IntArray::element( size_t index )const {
-      return m_data[index % m_size];
+      if ( m_data != nullptr ) {
+         return m_data[index % m_size];
+      }
+      else {
+         return m_garbage;
+      }
    }
 
 }

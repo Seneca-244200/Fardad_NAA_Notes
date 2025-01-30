@@ -16,7 +16,7 @@ int main( ) {
    IntArray B( 10 );
    size_t i = 0;
    cout << "B array has " << B.size( ) << " elements" << endl;
-   
+   A.element( 10 );
    B.element( 5 ) = 500;
 
    cout << B.element( 5 ) << endl;
@@ -27,6 +27,8 @@ int main( ) {
 
    display( B );
    display( A );
+
+
 
    return 0;
 }
