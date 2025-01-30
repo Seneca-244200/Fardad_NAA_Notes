@@ -12,6 +12,13 @@ namespace seneca {
       m_size = size;
    }
 
+   int IntArray::getElem( size_t index) const {
+      int ret{};
+      if ( m_data != nullptr && index < m_size ) {
+         ret =  m_data[index];
+      }
+      return ret;
+   }
 
    size_t IntArray::size( )const {
       return m_size;
@@ -19,8 +26,9 @@ namespace seneca {
    IntArray::~IntArray( ) {
       delete[] m_data;
    }
-   int& IntArray::element( size_t index ) {
-      return m_data[index % m_size];
+   void IntArray::setElem( size_t index, int value ) {
+      if ( m_data != nullptr && index < m_size) {
+         m_data[index] = value;
+      }
    }
-
 }

@@ -8,7 +8,11 @@ namespace seneca {
       IntArray( );
       IntArray( size_t size );
       ~IntArray( );
-      int& element( size_t index );
+      // modifiers 
+      void setElem(size_t index,  int value );
+
+      // queries
+      int getElem( size_t index )const;
       size_t size( )const;
 
    };
