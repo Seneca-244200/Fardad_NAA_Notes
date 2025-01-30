@@ -23,4 +23,8 @@ namespace seneca {
       return m_data[index % m_size];
    }
 
+   const int& IntArray::element( size_t index )const {
+      return m_data[index % m_size];
+   }
+
 }
