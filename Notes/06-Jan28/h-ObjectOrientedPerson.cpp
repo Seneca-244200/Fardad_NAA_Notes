@@ -21,10 +21,10 @@ class Person {
 
 public:
 
-   Person( ) {
+   Person( ) {  // default constructor, no-arg constructor
       init( );
    }
-   Person( const char* name, size_t age ) {
+   Person( const char* name, size_t age  = 18) {  // 2-arg constructor
       init( name, age );
    }
    ~Person( ) {
