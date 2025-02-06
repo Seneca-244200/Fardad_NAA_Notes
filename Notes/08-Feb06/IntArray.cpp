@@ -19,7 +19,7 @@ namespace seneca {
    IntArray::~IntArray( ) {
       delete[] m_data;
    }
-   int& IntArray::element( size_t index ) { // Fardad doesn't like this
+   int& IntArray::element( size_t index ) {
       if ( m_data != nullptr ) {
          return m_data[index % m_size];
       }
@@ -28,12 +28,13 @@ namespace seneca {
       }
    }
 
-   const int& IntArray::element( size_t index )const { // He likes this one!!!!
-      int* ret = &m_garbage;
+   const int& IntArray::element( size_t index )const {
       if ( m_data != nullptr ) {
-         ret =  &m_data[index % m_size];
+         return m_data[index % m_size];
       }
-      return *ret;
+      else {
+         return m_garbage;
+      }
    }
 
 }

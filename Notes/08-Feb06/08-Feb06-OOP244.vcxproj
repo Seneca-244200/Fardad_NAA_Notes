@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IntArray.cpp" />
     <ClCompile Include="prg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Operators.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
