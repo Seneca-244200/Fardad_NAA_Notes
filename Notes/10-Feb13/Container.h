@@ -15,7 +15,7 @@ namespace seneca {
       Container& operator++( );
       Container& operator++( int );
       Container& operator=( int value );
-      std::ostream& display( )const;
+      std::ostream& display(std::ostream& ostr = std::cout )const;
       int operator>>( Container& other );
       operator int( )const;
    };

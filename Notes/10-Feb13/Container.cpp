@@ -41,8 +41,8 @@ namespace seneca {
       m_value = value;
       return *this;
    }
-   ostream& Container::display( )const {
-      return cout << "Cnt-" << m_value;
+   ostream& Container::display(ostream& ostr )const {
+      return ostr << "Cnt-" << m_value;
    }
    // Rigth and left side effect!!!
    int Container::operator>>( Container& other ) {
@@ -67,8 +67,7 @@ namespace seneca {
    }
 
    std::ostream& operator<<(std::ostream& leftOperand, const Container& rightOperand) {
-      rightOperand.display();
-      return leftOperand;
+      return rightOperand.display(leftOperand);
    }
 
 }

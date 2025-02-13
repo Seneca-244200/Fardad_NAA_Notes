@@ -29,5 +29,8 @@ int main( ) {
 
    cout << "The value of A after A = B + 3 is " << A << endl;
 
+   clog << A << endl;
+   cerr << A << endl;
+
    return 0;
 }
