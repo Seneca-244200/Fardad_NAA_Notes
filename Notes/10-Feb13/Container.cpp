@@ -66,6 +66,9 @@ namespace seneca {
       return temp;
    }
 
-
+   std::ostream& operator<<(std::ostream& leftOperand, const Container& rightOperand) {
+      rightOperand.display();
+      return leftOperand;
+   }
 
 }
