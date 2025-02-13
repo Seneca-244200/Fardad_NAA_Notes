@@ -50,8 +50,9 @@ public:
    }
    // type conversion operator
    // if the container needs to be cased to an int
-   // run this:
-   operator int( )const {
+   // implement this:
+   // typecast overloads do not have return type, because they are the indicating the return type in the cast operation
+   operator int( )const { 
       return m_value;
    }
 

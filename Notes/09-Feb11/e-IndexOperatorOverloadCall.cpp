@@ -16,7 +16,6 @@ int main( ) {
    IntArray B( 10 );
    size_t i = 0;
    cout << "B array has " << B.size( ) << " elements" << endl;
-
    B[5] = 500;
 
    cout << B[5] << endl;
