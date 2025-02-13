@@ -15,14 +15,17 @@ namespace seneca {
       Container& operator++( );
       Container& operator++( int );
       Container& operator=( int value );
-      std::ostream& display(std::ostream& ostr = std::cout )const;
+      std::ostream& display(std::ostream& ostr = std::cout)const;
+      std::istream& read(std::istream& istr = std::cin);
       int operator>>( Container& other );
       operator int( )const;
+      friend Container operator+(int leftOperand, const Container& rightOprand);
    };
 
    Container operator+(int leftOperand, const Container& rightOprand);
 
    std::ostream& operator<<(std::ostream& leftOperand, const Container& rightOperand);
+   std::istream& operator>>(std::istream& leftOperand, Container& rightOperand);
 
 }
 
