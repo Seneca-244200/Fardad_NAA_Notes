@@ -87,4 +87,4 @@ AType Btype::operator[](CType)const;
 // type conversion operator
 // B = (BType)A1;
 
-BType::operator Atype()const;
+AType::operator Btype()const;
