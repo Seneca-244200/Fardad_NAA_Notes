@@ -68,7 +68,7 @@ namespace seneca {
 
    // helpers....
    Container operator+(int leftOperand, const Container& rightOprand) {
-      Container temp(leftOperand + rightOprand.m_value);
+      Container temp(leftOperand + int(rightOprand));
       return temp;
    }
 

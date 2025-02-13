@@ -19,7 +19,7 @@ namespace seneca {
       std::istream& read(std::istream& istr = std::cin);
       int operator>>( Container& other );
       operator int( )const;
-      friend Container operator+(int leftOperand, const Container& rightOprand);
+      // NEVER USE FRIENDS FOR METHODS: friend Container operator+(int leftOperand, const Container& rightOprand);
    };
 
    Container operator+(int leftOperand, const Container& rightOprand);
