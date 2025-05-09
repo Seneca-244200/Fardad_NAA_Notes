@@ -6,13 +6,25 @@ int getNum() {
    return number;
 }
 
+bool getValidatedNum(int* num, int min, int max) {
+   bool result = false;
+   int number = getNum();
+   if (number >= min && number <= max) {
+      *num = number;
+      result = true;
+   }
+   return result;
+}
 
 int main() {
    int age;
    cout << "OOP244 NAA May09" << endl;
    cout << "How old are you?\n> ";
-   age = getNum();
-   cout << "You are " << age << " years old!" << endl;
-
+   if (getValidatedNum(&age, 18, 90)) {
+      cout << "Hello and welcome, you are " << age << " years old and permitted to enter!" << endl;
+   }
+   else {
+      cout << "Invalid age entry" << endl;
+   }
    return 0;
 }
