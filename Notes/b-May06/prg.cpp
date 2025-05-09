@@ -1,6 +1,8 @@
 #include <iostream>
-using namespace std;
 #include "NumIO.h"
+using namespace std;
+using namespace seneca;
+
 
 int main() {
    int age;

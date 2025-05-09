@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int getNum() {
-   int number;
-   cin >> number;
-   return number;
-}
+namespace seneca {
 
-bool getValidatedNum(int* num, int min, int max) {
-   bool result = false;
-   int number = getNum();
-   if (number >= min && number <= max) {
-      *num = number;
-      result = true;
+   int getNum() {
+      int number;
+      cin >> number;
+      return number;
    }
-   return result;
+
+   bool getValidatedNum(int* num, int min, int max) {
+      bool result = false;
+      int number = getNum();
+      if (number >= min && number <= max) {
+         *num = number;
+         result = true;
+      }
+      return result;
+   }
+
 }
