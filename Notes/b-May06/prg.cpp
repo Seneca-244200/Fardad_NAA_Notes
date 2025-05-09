@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int getNum();
-bool getValidatedNum(int* num, int min, int max);
+#include "NumIO.h"
 
 int main() {
    int age;
@@ -17,18 +16,3 @@ int main() {
 }
 
 
-int getNum() {
-   int number;
-   cin >> number;
-   return number;
-}
-
-bool getValidatedNum(int* num, int min, int max) {
-   bool result = false;
-   int number = getNum();
-   if (number >= min && number <= max) {
-      *num = number;
-      result = true;
-   }
-   return result;
-}
