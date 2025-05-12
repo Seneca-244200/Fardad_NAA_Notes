@@ -16,10 +16,6 @@ namespace seneca {
       cout << endl;
    }
 
-   void line( char fill ) {
-      line( fill, 79 );
-   }
-
    size_t line( ) {
       size_t len;
       cout << "Enter the length of the line\n> ";
