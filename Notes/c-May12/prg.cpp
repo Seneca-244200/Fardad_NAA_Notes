@@ -1,6 +1,9 @@
 #include <iostream>
+#include "lines.h"
 using namespace std;
+using namespace seneca;
 int main( ) {
-   cout << "OOP244NAA May12" << endl;
+   line( 50 );
+   line( 40, '+' );
    return 0;
 }
