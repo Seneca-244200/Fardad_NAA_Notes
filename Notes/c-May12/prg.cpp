@@ -3,7 +3,10 @@
 using namespace std;
 using namespace seneca;
 int main( ) {
-   line( 50 );
-   line( 40, '+' );
+   size_t len = line( );
+   line( len );
+   line( '=' );
+   len = line( );
+   line( '+', len );
    return 0;
 }

@@ -2,8 +2,9 @@
 #define SENECA_LINES_H
 namespace seneca {
    void line( size_t len );
-   void line( size_t len, char fill );
-
+   void line( char fill, size_t len );
+   void line( char fill );
+   size_t line( );
 
 
 }
