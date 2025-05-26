@@ -4,8 +4,12 @@ using namespace std;
 using namespace seneca;
 int main( ) {
    cout << "OOP244NAA - May26" << endl;
-   Assessment MA;
-   set( MA ); // set(Assessment& A = MA);
-   print( MA );
+   Assessment A;
+   A.set( );
+   //A.m_title[0] = 'X';// private
+   cout << "Your entered:"<<endl;
+   A.print( );
+   A.set( "Midterm Test", 85 );
+   A.print( );
    return 0;
 }
