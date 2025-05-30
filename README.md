@@ -14,7 +14,8 @@ Here are the steps to install Fusion Vmware and Windows 10 on Fusion VM:
 # [Office and Emergency Online Sessions](https://teams.microsoft.com/l/team/19%3ADtIZ6_OXmGfIZXr0Y7cTfqPVgZfxyQdoixghgvUb3KU1%40thread.tacv2/conversations?groupId=ea4868c8-1c33-4286-b0ba-1bb05897e1df&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)
 
 For Help and office times, click on my  [Office and Emergency Online Sessions](https://teams.microsoft.com/l/team/19%3ADtIZ6_OXmGfIZXr0Y7cTfqPVgZfxyQdoixghgvUb3KU1%40thread.tacv2/conversations?groupId=ea4868c8-1c33-4286-b0ba-1bb05897e1df&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)  link to go to MS Teams, then click on the calendar icon and book a meeting using [**Scheduling Assistant**](https://www.youtube.com/watch?v=RLDoP3eXAUU&ab_channel=FardadSoleimanloo) to make sure it does not have a conflict with my other work activities.
-
+# How to book an appointment :
+[click here to see how](https://www.youtube.com/watch?v=CzPPjt6z3vk)
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
 |--------|-------------|:------------:|:------------:|:-------------:|:-------------:|:-------------:|
