@@ -4,9 +4,13 @@ using namespace std;
 using namespace seneca;
 int main( ) {
    cout << "OOP244NAA - May26" << endl;
-   Assessment A("Final Test", 95);
-   Assessment B = { "Midterm Test", 85 };
+   //int I( 100 ); same as below
+   int I = 100;// initialization is a call to a one argument constructor.
+   cout << I << endl;
+
+   Assessment A = "Final Test";
+
    A.print( );
-   B.print( );
+
    return 0;
 }

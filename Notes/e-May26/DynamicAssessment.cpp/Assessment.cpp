@@ -27,30 +27,30 @@ namespace seneca {
    bool Assessment::isEmpty( ) const {
       return m_title == nullptr;
    }
-   void Assessment::set(  ) {
-       cout << "Assessment Name\n> ";
-       cin.getline( m_title, 128 );
-       cout << "Assessment Mark\n> ";
-       cin >> m_mark;
-    }
+   void Assessment::set( ) {
+      cout << "Assessment Name\n> ";
+      cin.getline( m_title, 128 );
+      cout << "Assessment Mark\n> ";
+      cin >> m_mark;
+   }
 
-    void Assessment::set( const char* title, int mark ) {
-       delete[] m_title;
-       m_title = nullptr;
-       if ( m_title ) { // same as m_title != nullptr
-          m_title = new char[strlen( title ) + 1];
-          strcpy( m_title, title );
-       }
-       m_mark = mark;
-    }
+   void Assessment::set( const char* title, int mark ) {
+      delete[] m_title;
+      m_title = nullptr;
+      if ( title ) { // same as m_title != nullptr
+         m_title = new char[strlen( title ) + 1];
+         strcpy( m_title, title );
+      }
+      m_mark = mark;
+   }
 
-    void Assessment::print(  )const {
-       if ( isEmpty( ) ) {
-          cout << "Assessment is empty!" << endl;
-       }
-       else {
-          cout << m_title << " (mark: " << m_mark << ")" << endl;
-       }
-    }
+   void Assessment::print( )const {
+      if ( isEmpty( ) ) {
+         cout << "Assessment is empty!" << endl;
+      }
+      else {
+         cout << m_title << " (mark: " << m_mark << ")" << endl;
+      }
+   }
 
 }

@@ -4,9 +4,10 @@ using namespace std;
 using namespace seneca;
 int main( ) {
    cout << "OOP244NAA - May26" << endl;
-   Assessment A("Final Test", 95);
-   Assessment B = { "Midterm Test", 85 };
+   Assessment A;
+   A.set( );
+   //A.m_title[0] = 'X'; private
+   cout << "Your entered:"<<endl;
    A.print( );
-   B.print( );
    return 0;
 }

@@ -2,7 +2,7 @@
 #define SENECA_ASSESSMENT_H
 namespace seneca {
    class Assessment {
-   private: 
+  // private: //is by default
       char* m_title; 
       int m_mark;
    public:
