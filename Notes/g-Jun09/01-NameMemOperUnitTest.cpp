@@ -34,5 +34,10 @@ int main( ) {
    FL.display( ) << " name is " << int( FL ) << endl;
    int len = FL;
    cout << len << endl;
+
+   for ( size_t i = 0; i < FL; i++ ) {
+      cout << FL[i] << " ";
+   }
+   cout << endl;
    return 0;
 }
