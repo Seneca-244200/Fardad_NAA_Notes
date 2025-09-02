@@ -8,27 +8,28 @@ Here are the steps to install Fusion Vmware and Windows 10 on Fusion VM:
 - [Install Windows 10 on Fusion VM](https://www.groovypost.com/howto/create-custom-virtual-machine-vmware-fusion/)
 
 # Lecture Recordings
-- [2251 - OOP244 Lecture recordings](https://www.youtube.com/playlist?list=PLxB4x6RkylosBwWJhPzrCmWqFclGHAsBb)
+- [2257 - OOP244 Lecture recordings]()
 - [Lecture Inclass Notes](https://github.com/Seneca-244200/Fardad_NAA_Notes/Notes)
 
-# [Office and Emergency Online Sessions](https://teams.microsoft.com/l/team/19%3ADtIZ6_OXmGfIZXr0Y7cTfqPVgZfxyQdoixghgvUb3KU1%40thread.tacv2/conversations?groupId=ea4868c8-1c33-4286-b0ba-1bb05897e1df&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)
+# [Office and Emergency Online Sessions](https://teams.microsoft.com/l/team/19%3A-6DrS3ikd1m0KW0rRvDS4825U2cl492K6A5yONHq-ks1%40thread.tacv2/conversations?groupId=59749dc0-437d-42f2-85f0-a780f81f2f5e&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)
 
-For Help and office times, click on my  [Office and Emergency Online Sessions](https://teams.microsoft.com/l/team/19%3ADtIZ6_OXmGfIZXr0Y7cTfqPVgZfxyQdoixghgvUb3KU1%40thread.tacv2/conversations?groupId=ea4868c8-1c33-4286-b0ba-1bb05897e1df&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)  link to go to MS Teams, then click on the calendar icon and book a meeting using [**Scheduling Assistant**](https://www.youtube.com/watch?v=RLDoP3eXAUU&ab_channel=FardadSoleimanloo) to make sure it does not have a conflict with my other work activities.
+For Help and office times, click on my  [Office and Emergency Online Sessions](https://teams.microsoft.com/l/team/19%3A-6DrS3ikd1m0KW0rRvDS4825U2cl492K6A5yONHq-ks1%40thread.tacv2/conversations?groupId=59749dc0-437d-42f2-85f0-a780f81f2f5e&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)  link to go to MS Teams, then click on the calendar icon and book a meeting using [**Scheduling Assistant**](https://www.youtube.com/watch?v=RLDoP3eXAUU&ab_channel=FardadSoleimanloo) to make sure it does not have a conflict with my other work activities.
 # How to book an appointment :
 [click here to see how](https://www.youtube.com/watch?v=CzPPjt6z3vk)
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
 |--------|-------------|:------------:|:------------:|:-------------:|:-------------:|:-------------:|
-| 1      | 8:00-8:50   |                         |  |                          |  |  |
-| 2      | 8:55-9:45   |                         |  |                          |  |  |
-| 3      | 9:50-10:40  |                         |  |                          |  |  |
-| 4      | 10:45-11:35 |                         |  |                          |  |  |
-| 5      | 11:40-12:30 |                         |  |                          |  | 244 NAAL <br />LAB A3516 |
-| 6      | 12:35-13:25 |                         |  |                          |  | 244 NAAL <br />LAB A3516 |
-| 7      | 13:30-14:20 |                         |  | 345 NEEL <br />LAB C3034 |  |  |
-| 8      | 14:25-15:15 | 244 NAA <br />LEC A3069 |  | 345 NEEL <br />LAB C3034 |  |  |
-| 9      | 15:20-16:10 | 244 NAA <br />LEC A3069 |  | 345 NDD <br />LEC B4021  |  | 345 NDDL <br />LAB A4516 |
-| 10     | 16:15-17:05 | 345 NEE <br />LEC B3088 |  | 345 NDD <br />LEC B4021  |  | 345 NDDL <br />LAB A4516 |
-| 11     | 17:10-18:00 | 345 NEE <br />LEC B3088 |  |                          |  |  |
-| 12     | 18:05-18:55 |                         |  |                          |  |  |
+| 1      | 8:00-8:50   | 345 NAA <br />LEC B3044 |                         |  |  |  |
+| 2      | 8:55-9:45   | 345 NAA <br />LEC B3044 |                         |  |  |  |
+| 3      | 9:50-10:40  | 345 NBB <br />LEC B3050 |                         |  |  |  |
+| 4      | 10:45-11:35 | 345 NBB <br />LEC B3050 |                         |  |  |  |
+| 5      | 11:40-12:30 |                         |                         |  |  | 244 NAAL <br />LAB A3518 |
+| 6      | 12:35-13:25 |                         |                         |  |  | 244 NAAL <br />LAB A3518 |
+| 7      | 13:30-14:20 |                         | 345 NRA <br />LEC B3044 |  | 345 NRAL <br />LEC C4034 |  |
+| 8      | 14:25-15:15 |                         | 345 NRA <br />LEC B3044 |  | 345 NRAL <br />LEC C4034 | 345 NAAL <br />LAB C3030 |
+| 9      | 15:20-16:10 |                         | 244 NAA <br />LEC B1081 |  | 345 NBBL <br />LEC A3516 | 345 NAAL <br />LAB C3030 |
+| 10     | 16:15-17:05 |                         | 244 NAA <br />LEC B1081 |  | 345 NBBL <br />LEC A3516 |  |
+| 11     | 17:10-18:00 |                         |                         |  |  |  |
+| 12     | 18:05-18:55 |                         |                         |  |  |  |
+
 
