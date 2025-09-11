@@ -8,7 +8,7 @@ Here are the steps to install Fusion Vmware and Windows 10 on Fusion VM:
 - [Install Windows 10 on Fusion VM](https://www.groovypost.com/howto/create-custom-virtual-machine-vmware-fusion/)
 
 # Lecture Recordings
-- [2257 - OOP244 Lecture recordings]()
+- [2257 - OOP244 Lecture recordings](https://www.youtube.com/playlist?list=PLxB4x6RkylotkZd74erWPL0Qw7Lq3jBWZ)
 - [Lecture Inclass Notes](https://github.com/Seneca-244200/Fardad_NAA_Notes/tree/main/Notes)
 
 # [Office and Emergency Online Sessions](https://teams.microsoft.com/l/team/19%3A-6DrS3ikd1m0KW0rRvDS4825U2cl492K6A5yONHq-ks1%40thread.tacv2/conversations?groupId=59749dc0-437d-42f2-85f0-a780f81f2f5e&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)
