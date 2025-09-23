@@ -6,9 +6,11 @@ namespace seneca {
       int m_width;
       int m_height;
       char m_fill;
+      void set( int width, 
+         int height, char fill);
+      void draw()const;// can't change the owner
    };
-   void set(Frame& f, int width, int height, char fill);
-   void draw(const Frame& f);
+
 
 }
 #endif // !SENECA_FRAME_H

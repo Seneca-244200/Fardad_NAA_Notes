@@ -2,25 +2,25 @@
 #include "Frame.h"
 using namespace std;
 namespace seneca {
-   void set(Frame& f, int width, int height, char fill) {
-      f.m_fill = fill;
-      f.m_height = height;
-      f.m_width = width;
+   void Frame::set( int width, int height, char fill) {
+      m_fill = fill;
+      m_height = height;
+      m_width = width;
    }
-   void draw(const Frame& f) {
-      for (int i = 0; i < f.m_width; i++) {
-         cout << f.m_fill;
+   void Frame::draw()const {
+      for (int i = 0; i < m_width; i++) {
+         cout << m_fill;
       }
       cout << endl;
-      for (int h = 0; h < f.m_height - 2; h++) {
-         cout << f.m_fill;
-         for (int i = 0; i < f.m_width - 2; i++) {
+      for (int h = 0; h < m_height - 2; h++) {
+         cout << m_fill;
+         for (int i = 0; i < m_width - 2; i++) {
             cout << " ";
          }
-         cout << f.m_fill << endl;
+         cout << m_fill << endl;
       }
-      for (int i = 0; i < f.m_width; i++) {
-         cout << f.m_fill;
+      for (int i = 0; i < m_width; i++) {
+         cout << m_fill;
       }
       cout << endl;
    }
