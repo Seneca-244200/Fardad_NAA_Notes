@@ -14,6 +14,7 @@ namespace seneca {
          int height, char fill);
       bool set(char fill);
       void draw()const;// can't change the owner
+      bool isValid()const;
    };
 
 

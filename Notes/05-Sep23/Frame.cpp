@@ -15,6 +15,7 @@ namespace seneca {
    Frame::Frame(int width, int height) {
       set(width, height, '*');
    }
+   // modifier
    bool Frame::set(char fill) {
       char okOnes[] = "+-*#@$";
       bool ok = false;
@@ -28,6 +29,7 @@ namespace seneca {
       if (ok) m_fill = fill;
       return ok;
    }
+   //query
    void Frame::draw()const {
       if (m_ok) {
          for (int i = 0; i < m_width; i++) {
@@ -49,6 +51,10 @@ namespace seneca {
       else {
          cout << "Bad frame!" << endl;
       }
+   }
+   // query
+   bool Frame::isValid() const {
+      return m_ok;
    }
 
 

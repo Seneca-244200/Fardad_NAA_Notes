@@ -1,12 +1,14 @@
 #include <iostream>
-#include "Title.h"
+#include "Frame.h"
 using namespace std;
 using namespace seneca;
 int main() {
    cout << "05-Sep23 OOP244 NAA" << endl;
-   Title T("OOP244 NAA");
-   T.print();
-   T.set("05-Sep23 OOP244 NAA");
-   T.print();
+   Frame F;
+   Frame F2(30, 15);
+   F.draw();
+   F.set(40, 10, '+');
+   F.draw();
+   F2.draw();
    return 0;
 }
