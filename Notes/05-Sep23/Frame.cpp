@@ -3,26 +3,52 @@
 using namespace std;
 namespace seneca {
    void Frame::set( int width, int height, char fill) {
-      m_fill = fill;
-      m_height = height;
-      m_width = width;
+      m_ok = set(fill);
+      if (m_ok) {
+         m_height = height;
+         m_width = width;
+      }
+   }
+   Frame::Frame() {
+      set(20, 10, '*');
+   }
+   Frame::Frame(int width, int height) {
+      set(width, height, '*');
+   }
+   bool Frame::set(char fill) {
+      char okOnes[] = "+-*#@$";
+      bool ok = false;
+      int i{}; // = 0;
+      while (!ok && okOnes[i]) {
+         if (fill == okOnes[i]) {
+            ok = true;
+         }
+         i++;
+      }
+      if (ok) m_fill = fill;
+      return ok;
    }
    void Frame::draw()const {
-      for (int i = 0; i < m_width; i++) {
-         cout << m_fill;
-      }
-      cout << endl;
-      for (int h = 0; h < m_height - 2; h++) {
-         cout << m_fill;
-         for (int i = 0; i < m_width - 2; i++) {
-            cout << " ";
+      if (m_ok) {
+         for (int i = 0; i < m_width; i++) {
+            cout << m_fill;
          }
-         cout << m_fill << endl;
+         cout << endl;
+         for (int h = 0; h < m_height - 2; h++) {
+            cout << m_fill;
+            for (int i = 0; i < m_width - 2; i++) {
+               cout << " ";
+            }
+            cout << m_fill << endl;
+         }
+         for (int i = 0; i < m_width; i++) {
+            cout << m_fill;
+         }
+         cout << endl;
       }
-      for (int i = 0; i < m_width; i++) {
-         cout << m_fill;
+      else {
+         cout << "Bad frame!" << endl;
       }
-      cout << endl;
    }
 
 
