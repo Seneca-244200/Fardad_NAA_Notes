@@ -6,8 +6,9 @@ namespace seneca {
       char* m_content;
       size_t m_disSize;
    public:
-      Title(const char* content);
+      Title(const char* content, size_t maxCharsToDisplay = 40);
       ~Title();
+      void display()const;
       bool isValid()const;
    };
 }
