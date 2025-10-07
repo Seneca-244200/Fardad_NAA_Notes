@@ -2,6 +2,14 @@ Atype A;
 Btype B;
 Ctype C;
 
+All Atype, Btype, Ctype in the following text, could be:
+
+Xtype
+Xtype&
+const Xtype&, 
+
+based on what the operator should modify or return 
+
 A @ B
 A and b: operands
 @: operator
@@ -21,8 +29,12 @@ A = B < C
 
 // binary operators with no side-effect
 A = B @ C  // A will be set to B@C and B and C remain the same
+
+
 // binary operator with side-effect
 A = B @ C // A will be set to B@C and B and/or C may change after the operation 
+
+Atype Btype::operator@(Ctype A);
 
 A = B += C;
 A = B = C;
